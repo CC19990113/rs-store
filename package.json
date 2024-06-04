@@ -1,0 +1,26 @@
+{
+  "name": "rs-store",
+  "collaborators": [
+    "zhaochangchang <1552073962@qq.com>"
+  ],
+  "description": "rs-store is a simple key-value store written in Rust.",
+  "version": "0.2.0",
+  "license": "MIT/Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CC19990113/RStore.git"
+  },
+  "files": [
+    "rs_store_bg.wasm",
+    "rs_store.js",
+
+    "rs_store_bg.js",
+    "rs_store.d.ts"
+  ],
+  "module": "rs_store.js",
+  "types": "rs_store.d.ts",
+  "sideEffects": [
+    "./rs_store.js",
+    "./snippets/*"
+  ]
+}
